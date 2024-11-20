@@ -10,6 +10,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioClip CollectingItemSound;
     public AudioClip GettingIntoBasketSound;
     public AudioClip ItemChangeSound;
+    public AudioClip EvaluationSound;
     public AudioClip FinishingSound;
     public AudioClip BackgroundMusic;
 
@@ -24,6 +25,8 @@ public class AudioManagerScript : MonoBehaviour
     public float GettingIntoBasketSoundVolume;
     [Range(0.0f, 1f)]
     public float ItemChangeSoundVolume;
+    [Range(0.0f, 1f)]
+    public float EvaluationSoundVolume;
     [Range(0.0f, 1f)]
     public float FinishingSoundVolume;
     [Range(0.0f, 1f)]
@@ -41,6 +44,8 @@ public class AudioManagerScript : MonoBehaviour
     [Range(0, 256)]
     public int ItemChangeSoundPriority;
     [Range(0, 256)]
+    public int EvaluationSoundPriority;
+    [Range(0, 256)]
     public int FinishingSoundPriority;
     [Range(0, 256)]
     public int BackgroundMusicPriority;
@@ -51,6 +56,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioSource CollectingItemSoundSrc;
     public AudioSource GettingIntoBasketSoundSrc;
     public AudioSource ItemChangeSoundSrc;
+    public AudioSource EvaluationSoundSrc;
     public AudioSource FinishingSoundSrc;
     public AudioSource BackgroundMusicSrc;
 
@@ -94,6 +100,14 @@ public class AudioManagerScript : MonoBehaviour
         ItemChangeSoundSrc.priority = ItemChangeSoundPriority;
         ItemChangeSoundSrc.volume = ItemChangeSoundVolume;
         ItemChangeSoundSrc.PlayOneShot(ItemChangeSound);
+    }
+
+
+    public void PlayEvaluationSound()
+    {
+        EvaluationSoundSrc.priority = EvaluationSoundPriority;
+        EvaluationSoundSrc.volume = EvaluationSoundVolume;
+        EvaluationSoundSrc.PlayOneShot(EvaluationSound);
     }
 
 

@@ -22,6 +22,8 @@ public class GameManagerScript : MonoBehaviour
 
     public GameObject TextHolder;
 
+    public GameObject BasketVxf;
+
     public SkeletonAnimation skeletonAnimation;
 
     public List<GameObject> SlotSamples = new List<GameObject>();
@@ -95,6 +97,27 @@ public class GameManagerScript : MonoBehaviour
 
     }
 
+
+
+
+    public IEnumerator DelayItemChange()
+    {
+
+        yield return new WaitForSeconds(0.5f);
+
+        audioManagerScript.PlayEvaluationSound();
+
+        yield return new WaitForSeconds(audioManagerScript.EvaluationSound.length);
+
+        print("change");
+        audioManagerScript.PlayItemChangeSound();
+
+        SetSampleSlot();
+
+        BasketVxf.SetActive(false);
+        BasketVxf.SetActive(true);
+
+    }
 
 
     void Start()

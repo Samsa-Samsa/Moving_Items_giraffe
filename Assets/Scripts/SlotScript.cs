@@ -14,12 +14,15 @@ public class SlotScript : MonoBehaviour
     public SlotManagerScript slotManagerScript;
     public AudioManagerScript audioManagerScript;
 
+    public float ScalingFactor;
+
 
     AnimationCurve TrajectoryCurve;
 
     GameObject Carier;
 
     Vector2 CartPos;
+    Vector2 OriginalScale;
 
     float TimeToReachBasket;
     float Angle;
@@ -36,6 +39,18 @@ public class SlotScript : MonoBehaviour
     bool RightFinished;
     bool GetCollected;
     bool SlotArrived;
+
+
+
+    //IEnumerator DelayItemChangeSound()
+    //{
+    //    yield return new WaitForSeconds(0.5f );
+
+    //    print("change");
+    //    audioManagerScript.PlayItemChangeSound();
+    //    gameManagerScript.SetSampleSlot();
+
+    //}
 
 
     void HandleRocking()
@@ -80,10 +95,8 @@ public class SlotScript : MonoBehaviour
     }
 
 
-    public Vector2 maxScale;
-    public Vector2 OriginalScale;
+   
 
-    bool ScaledUp;
 
     void OnMouseDown()
     {
@@ -96,6 +109,9 @@ public class SlotScript : MonoBehaviour
         {
             // collection of item is executing here
             // item collection sound can be played here
+
+            transform.localScale = new Vector2(transform.localScale.x + (transform.localScale.x * ScalingFactor / 100),
+               transform.localScale.y + (transform.localScale.y * ScalingFactor / 100));
 
             audioManagerScript.PlayTapSound();
 
@@ -110,8 +126,6 @@ public class SlotScript : MonoBehaviour
             transform.parent = Carier.transform;
 
             transform.localPosition = new Vector2(0, 0);
-
-            transform.localScale = maxScale;
 
    
             gameObject.GetComponent<SpriteRenderer>().maskInteraction = SpriteMaskInteraction.None;
@@ -178,11 +192,9 @@ public class SlotScript : MonoBehaviour
         {
 
 
-            if(transform.localScale.x > OriginalScale.x + 0.01f)
+            if(transform.localScale.x > OriginalScale.x + 0.005f)
             {
-                print("scaled");
                 transform.localScale = Vector2.Lerp(transform.localScale, OriginalScale, 4 * Time.deltaTime);
-
             }
 
 
@@ -207,11 +219,10 @@ public class SlotScript : MonoBehaviour
                 // changing target item on basket and play geraffe animation executing here
 
                 audioManagerScript.PlayGettingIntoBasketSound();
-                audioManagerScript.PlayItemChangeSound();
 
-
-                gameManagerScript.SetSampleSlot();
                 gameManagerScript.ChangeAnimation();
+
+                StartCoroutine(gameManagerScript.DelayItemChange());
                 SlotArrived = true;
             }
         }
