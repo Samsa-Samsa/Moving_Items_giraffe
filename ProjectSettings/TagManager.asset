@@ -1,0 +1,79 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Type1
+  - Type2
+  - Type3
+  - Type4
+  - Type5
+  - Type6
+  - Type7
+  - Type8
+  - Type9
+  - Type10
+  - Type11
+  - Type12
+  - Type13
+  - Type14
+  - Type 15
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: background
+    uniqueID: 4219751153
+    locked: 0
+  - name: items
+    uniqueID: 2413830823
+    locked: 0
+  - name: cartFront
+    uniqueID: 1506211643
+    locked: 0
+  - name: FoodStand
+    uniqueID: 2422824233
+    locked: 0
+  - name: Items
+    uniqueID: 2593096385
+    locked: 0
+  - name: Basket
+    uniqueID: 2653381243
+    locked: 0
+  - name: ui
+    uniqueID: 1018251473
+    locked: 0

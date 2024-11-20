@@ -1,0 +1,18 @@
+Giraffe.png
+size:1024,1024
+filter:Linear,Linear
+pma:true
+Head
+bounds:0,186,599,780
+Left ear
+bounds:601,173,234,172
+Left eye
+bounds:837,219,85,126
+body
+bounds:601,347,421,619
+right ear
+bounds:555,0,234,171
+right eye
+bounds:924,219,85,126
+shadow
+bounds:0,4,553,180
