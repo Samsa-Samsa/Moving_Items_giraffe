@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "moving-items.sln"
+    "dotnet.defaultSolution": "Moving-Items.sln"
 }
