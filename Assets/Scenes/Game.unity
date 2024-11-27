@@ -3388,7 +3388,7 @@ MonoBehaviour:
   ItemChangeSound: {fileID: 8300000, guid: caf0151f898135f43929c7a44badb2fd, type: 3}
   FireworksSound: {fileID: 8300000, guid: c19af547a6aaa71409e6ab4e82b29c1a, type: 3}
   BackgroundMusic: {fileID: 0}
-  StartingSound: {fileID: 0}
+  StartingSound: {fileID: 8300000, guid: 67a8921c11e6bc6459711790c1f76f3e, type: 3}
   EvaluationSounds:
   - {fileID: 8300000, guid: c6fa3de7b6e2f0a429e79f0349e5fadc, type: 3}
   - {fileID: 8300000, guid: 85d10c9674d5a6f4bb18630b03698f80, type: 3}
@@ -3405,7 +3405,7 @@ MonoBehaviour:
   EvaluationSoundVolume: 1
   FireworksSoundVolume: 1
   BackgroundMusicVolume: 0
-  StartingSoundVolume: 0
+  StartingSoundVolume: 1
   TapSoundSrc: {fileID: 97581073}
   WrongTapSoundSrc: {fileID: 494564137}
   CollectingItemSoundSrc: {fileID: 388331190}
