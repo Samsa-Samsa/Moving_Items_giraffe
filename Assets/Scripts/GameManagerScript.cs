@@ -23,6 +23,8 @@ public class GameManagerScript : MonoBehaviour
     public GameObject TextHolder;
 
     public GameObject BasketVxf;
+    public GameObject KonfetiVfx;
+    public GameObject[] FireWorkVfxes;
 
     public SkeletonAnimation skeletonAnimation;
 
@@ -53,6 +55,29 @@ public class GameManagerScript : MonoBehaviour
         }
     }
 
+    public float FireworkExplosionInterval;
+
+
+
+
+    IEnumerator HandleFireworks()
+    {
+        for (int i = 0; i < FireWorkVfxes.Length; i++)
+        {
+            FireWorkVfxes[i].SetActive(true);
+            audioManagerScript.PlayFireworksSound();
+            yield return new WaitForSeconds(FireworkExplosionInterval);
+        }
+    }
+
+
+    void PlayWiningAction()
+    {
+        KonfetiVfx.SetActive(true);
+        StartCoroutine(HandleFireworks());
+
+    }
+
 
     public void SetSampleSlot()
     {
@@ -68,9 +93,9 @@ public class GameManagerScript : MonoBehaviour
         else
         {
             // finishing game action can be executed here
-            print("Win");
-            audioManagerScript.PlayFinishingSound();
-            TextHolder.SetActive(true);
+            //print("Win");
+            PlayWiningAction();
+            //TextHolder.SetActive(true);
         }
     }
 
@@ -135,5 +160,12 @@ public class GameManagerScript : MonoBehaviour
     void Update()
     {
         skeletonAnimation.AnimationState.Complete += OnAnimationComplete;
+
+
+
+        if(Input.GetKeyDown(KeyCode.Space))
+        {
+            //PlayWiningAction();
+        }
     }
 }

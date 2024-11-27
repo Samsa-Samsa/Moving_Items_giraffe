@@ -10,9 +10,10 @@ public class AudioManagerScript : MonoBehaviour
     public AudioClip CollectingItemSound;
     public AudioClip GettingIntoBasketSound;
     public AudioClip ItemChangeSound;
-    public AudioClip[] EvaluationSounds;
-    public AudioClip FinishingSound;
+    public AudioClip FireworksSound;
     public AudioClip BackgroundMusic;
+    public AudioClip[] EvaluationSounds;
+
 
 
     [Range(0.0f, 1f)]
@@ -28,27 +29,10 @@ public class AudioManagerScript : MonoBehaviour
     [Range(0.0f, 1f)]
     public float EvaluationSoundVolume;
     [Range(0.0f, 1f)]
-    public float FinishingSoundVolume;
+    public float FireworksSoundVolume;
     [Range(0.0f, 1f)]
     public float BackgroundMusicVolume;
 
-
-    [Range(0, 256)]
-    public int TapSoundPriority;
-    [Range(0, 256)]
-    public int WrongTapSoundPriority;
-    [Range(0, 256)]
-    public int CollectingItemSoundPriority;
-    [Range(0, 256)]
-    public int GettingIntoBasketSoundPriority;
-    [Range(0, 256)]
-    public int ItemChangeSoundPriority;
-    [Range(0, 256)]
-    public int EvaluationSoundPriority;
-    [Range(0, 256)]
-    public int FinishingSoundPriority;
-    [Range(0, 256)]
-    public int BackgroundMusicPriority;
 
 
     public AudioSource TapSoundSrc;
@@ -57,7 +41,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioSource GettingIntoBasketSoundSrc;
     public AudioSource ItemChangeSoundSrc;
     public AudioSource EvaluationSoundSrc;
-    public AudioSource FinishingSoundSrc;
+    public AudioSource FireworksSoundSrc;
     public AudioSource BackgroundMusicSrc;
 
 
@@ -67,7 +51,6 @@ public class AudioManagerScript : MonoBehaviour
 
     public void PlayTapSound()
     {
-        TapSoundSrc.priority = TapSoundPriority;
         TapSoundSrc.volume = TapSoundVolume;
         TapSoundSrc.PlayOneShot(TapSound);
     }
@@ -75,7 +58,6 @@ public class AudioManagerScript : MonoBehaviour
 
     public void PlayWrongTapSound()
     {
-        WrongTapSoundSrc.priority = WrongTapSoundPriority;
         WrongTapSoundSrc.volume = WrongTapSoundVolume;
         WrongTapSoundSrc.PlayOneShot(WrongTapSound);
     }
@@ -83,7 +65,6 @@ public class AudioManagerScript : MonoBehaviour
 
     public void PlayCollectingItemSound()
     {
-        CollectingItemSoundSrc.priority = CollectingItemSoundPriority;
         CollectingItemSoundSrc.volume = CollectingItemSoundVolume;
         CollectingItemSoundSrc.PlayOneShot(CollectingItemSound);
     }
@@ -91,7 +72,6 @@ public class AudioManagerScript : MonoBehaviour
 
     public void PlayGettingIntoBasketSound()
     {
-        GettingIntoBasketSoundSrc.priority = GettingIntoBasketSoundPriority;
         GettingIntoBasketSoundSrc.volume = GettingIntoBasketSoundVolume;
         GettingIntoBasketSoundSrc.PlayOneShot(GettingIntoBasketSound);
     }
@@ -99,7 +79,6 @@ public class AudioManagerScript : MonoBehaviour
 
     public void PlayItemChangeSound()
     {
-        ItemChangeSoundSrc.priority = ItemChangeSoundPriority;
         ItemChangeSoundSrc.volume = ItemChangeSoundVolume;
         ItemChangeSoundSrc.PlayOneShot(ItemChangeSound);
     }
@@ -107,7 +86,6 @@ public class AudioManagerScript : MonoBehaviour
 
     public void PlayEvaluationSound()
     {
-        EvaluationSoundSrc.priority = EvaluationSoundPriority;
         EvaluationSoundSrc.volume = EvaluationSoundVolume;
 
         EvaluationSoundSrc.PlayOneShot(EvaluationSounds[EvaluationSoundIndex]);
@@ -125,11 +103,10 @@ public class AudioManagerScript : MonoBehaviour
     }
 
 
-    public void PlayFinishingSound()
+    public void PlayFireworksSound()
     {
-        FinishingSoundSrc.priority = FinishingSoundPriority;
-        FinishingSoundSrc.volume = FinishingSoundVolume;
-        FinishingSoundSrc.PlayOneShot(FinishingSound);
+        FireworksSoundSrc.volume = FireworksSoundVolume;
+        FireworksSoundSrc.PlayOneShot(FireworksSound);
     }
 
 
