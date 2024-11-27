@@ -102,20 +102,22 @@ public class GameManagerScript : MonoBehaviour
 
     public IEnumerator DelayItemChange()
     {
-
+        BasketVxf.SetActive(false);
+        BasketVxf.SetActive(true);
         yield return new WaitForSeconds(0.5f);
 
         audioManagerScript.PlayEvaluationSound();
 
-        yield return new WaitForSeconds(audioManagerScript.EvaluationSound.length);
+        // yield return new WaitForSeconds(audioManagerScript.EvaluationSound.length);
+        yield return new WaitForSeconds(0);
 
         print("change");
         audioManagerScript.PlayItemChangeSound();
 
         SetSampleSlot();
 
-        BasketVxf.SetActive(false);
-        BasketVxf.SetActive(true);
+        // BasketVxf.SetActive(false);
+        // BasketVxf.SetActive(true);
 
     }
 
