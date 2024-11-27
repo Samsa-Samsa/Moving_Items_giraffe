@@ -10,7 +10,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioClip CollectingItemSound;
     public AudioClip GettingIntoBasketSound;
     public AudioClip ItemChangeSound;
-    public AudioClip EvaluationSound;
+    public AudioClip[] EvaluationSounds;
     public AudioClip FinishingSound;
     public AudioClip BackgroundMusic;
 
@@ -61,6 +61,8 @@ public class AudioManagerScript : MonoBehaviour
     public AudioSource BackgroundMusicSrc;
 
 
+    int EvaluationSoundIndex;
+
 
 
     public void PlayTapSound()
@@ -107,7 +109,19 @@ public class AudioManagerScript : MonoBehaviour
     {
         EvaluationSoundSrc.priority = EvaluationSoundPriority;
         EvaluationSoundSrc.volume = EvaluationSoundVolume;
-        EvaluationSoundSrc.PlayOneShot(EvaluationSound);
+
+        EvaluationSoundSrc.PlayOneShot(EvaluationSounds[EvaluationSoundIndex]);
+
+        if(EvaluationSoundIndex < EvaluationSounds.Length - 1)
+        {
+            EvaluationSoundIndex++;
+            print(EvaluationSoundIndex);
+        }
+        else
+        {
+            EvaluationSoundIndex = 0;
+            print(EvaluationSoundIndex);
+        }
     }
 
 

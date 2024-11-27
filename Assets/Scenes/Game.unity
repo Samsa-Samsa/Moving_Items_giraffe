@@ -3329,7 +3329,10 @@ MonoBehaviour:
   CollectingItemSound: {fileID: 0}
   GettingIntoBasketSound: {fileID: 8300000, guid: ae95f2eef84867c4cbe53854006397ff, type: 3}
   ItemChangeSound: {fileID: 8300000, guid: caf0151f898135f43929c7a44badb2fd, type: 3}
-  EvaluationSound: {fileID: 8300000, guid: c6fa3de7b6e2f0a429e79f0349e5fadc, type: 3}
+  EvaluationSounds:
+  - {fileID: 8300000, guid: 85d10c9674d5a6f4bb18630b03698f80, type: 3}
+  - {fileID: 8300000, guid: 96ac94eabab2e394a883c97b4c4d6c0b, type: 3}
+  - {fileID: 8300000, guid: c6fa3de7b6e2f0a429e79f0349e5fadc, type: 3}
   FinishingSound: {fileID: 0}
   BackgroundMusic: {fileID: 0}
   TapSoundVolume: 0.5
