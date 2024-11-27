@@ -12,6 +12,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioClip ItemChangeSound;
     public AudioClip FireworksSound;
     public AudioClip BackgroundMusic;
+    public AudioClip StartingSound;
     public AudioClip[] EvaluationSounds;
 
 
@@ -32,6 +33,8 @@ public class AudioManagerScript : MonoBehaviour
     public float FireworksSoundVolume;
     [Range(0.0f, 1f)]
     public float BackgroundMusicVolume;
+    [Range(0.0f, 1f)]
+    public float StartingSoundVolume;
 
 
 
@@ -43,6 +46,7 @@ public class AudioManagerScript : MonoBehaviour
     public AudioSource EvaluationSoundSrc;
     public AudioSource FireworksSoundSrc;
     public AudioSource BackgroundMusicSrc;
+    public AudioSource StartingSoundSrc;
 
 
     int EvaluationSoundIndex;
@@ -116,12 +120,19 @@ public class AudioManagerScript : MonoBehaviour
     }
 
 
+    public void PlayStartingSound()
+    {
+        StartingSoundSrc.volume = StartingSoundVolume;
+        StartingSoundSrc.PlayOneShot(StartingSound);
+    }
+
+
 
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        PlayStartingSound();
     }
 
     // Update is called once per frame

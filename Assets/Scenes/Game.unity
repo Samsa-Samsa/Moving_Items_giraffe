@@ -1063,6 +1063,134 @@ MonoBehaviour:
   slotManagerScript: {fileID: 1553036625}
   audioManagerScript: {fileID: 587333131}
   ScalingFactor: 35
+--- !u!1 &186326575
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 186326577}
+  - component: {fileID: 186326576}
+  m_Layer: 0
+  m_Name: initialSound src
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!82 &186326576
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186326575}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 0}
+  m_PlayOnAwake: 0
+  m_Volume: 1
+  m_Pitch: 1
+  Loop: 0
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 44.429123
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!4 &186326577
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 186326575}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 587333132}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &192335812
 GameObject:
   m_ObjectHideFlags: 0
@@ -3260,6 +3388,7 @@ MonoBehaviour:
   ItemChangeSound: {fileID: 8300000, guid: caf0151f898135f43929c7a44badb2fd, type: 3}
   FireworksSound: {fileID: 8300000, guid: c19af547a6aaa71409e6ab4e82b29c1a, type: 3}
   BackgroundMusic: {fileID: 0}
+  StartingSound: {fileID: 0}
   EvaluationSounds:
   - {fileID: 8300000, guid: c6fa3de7b6e2f0a429e79f0349e5fadc, type: 3}
   - {fileID: 8300000, guid: 85d10c9674d5a6f4bb18630b03698f80, type: 3}
@@ -3276,6 +3405,7 @@ MonoBehaviour:
   EvaluationSoundVolume: 1
   FireworksSoundVolume: 1
   BackgroundMusicVolume: 0
+  StartingSoundVolume: 0
   TapSoundSrc: {fileID: 97581073}
   WrongTapSoundSrc: {fileID: 494564137}
   CollectingItemSoundSrc: {fileID: 388331190}
@@ -3284,6 +3414,7 @@ MonoBehaviour:
   EvaluationSoundSrc: {fileID: 357177325}
   FireworksSoundSrc: {fileID: 739094655}
   BackgroundMusicSrc: {fileID: 979512968}
+  StartingSoundSrc: {fileID: 186326576}
 --- !u!4 &587333132
 Transform:
   m_ObjectHideFlags: 0
@@ -3305,6 +3436,7 @@ Transform:
   - {fileID: 357177324}
   - {fileID: 739094654}
   - {fileID: 979512967}
+  - {fileID: 186326577}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &661614801
