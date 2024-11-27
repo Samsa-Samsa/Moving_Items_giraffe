@@ -5648,11 +5648,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 7.1276937
+      value: 0.87
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -6.049106
+      value: -5.01
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -5737,11 +5737,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -16.072306
+      value: -21.81
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 5.6508937
+      value: 8.26
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -6156,11 +6156,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.4723067
+      value: -15.34
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.950894
+      value: -0.54
       objectReference: {fileID: 0}
     - target: {fileID: 7386271116851117698, guid: fee8eedda74351d488fc5869b035803c, type: 3}
       propertyPath: m_LocalPosition.z
@@ -13122,11 +13122,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8943002029643518021, guid: 27b49138b9032f4468ae07840ba77745, type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 9192834686293863820, guid: 27b49138b9032f4468ae07840ba77745, type: 3}
       propertyPath: looping
-      value: 0
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
