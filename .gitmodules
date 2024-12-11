@@ -1,0 +1,3 @@
+[submodule "Assets/KIDSGameLibrary"]
+	path = Assets/KIDSGameLibrary
+	url = https://github.com/AppideaDevTeam/KIDSGameLibrary
