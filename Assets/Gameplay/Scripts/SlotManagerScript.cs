@@ -5,6 +5,8 @@ using UnityEngine;
 public class SlotManagerScript : MonoBehaviour
 {
 
+    public ResponsivePosition responsivePosition;
+
     public List<GameObject> Slots = new List<GameObject>();
 
     public Transform EndPosRight;
@@ -32,7 +34,8 @@ public class SlotManagerScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        Speed *= responsivePosition.GetScreenRatio();
+        Space *= responsivePosition.GetScreenRatio();
 
     }
 

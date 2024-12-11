@@ -9,6 +9,8 @@ public class GameManagerScript : MonoBehaviour
 {
     public AudioManagerScript audioManagerScript;
 
+    public ResponsivePosition responsivePosition;
+
     public Transform SlotSamplePos;
     public Transform SlotInCartPos;
 
@@ -39,6 +41,10 @@ public class GameManagerScript : MonoBehaviour
 
     [HideInInspector]
     public int SlotsCollected;
+
+    [HideInInspector]
+    public float ScreenRatioNum;
+
 
     [HideInInspector]
     public static string CurrentSlotTag;
@@ -96,9 +102,14 @@ public class GameManagerScript : MonoBehaviour
         if (SlotSamples.Count > 0)
         {
             // changing target item is executing here
-            GameObject obj = SlotSamples[0];
+            GameObject obj = Instantiate(SlotSamples[0]);
             obj.transform.position = SlotSamplePos.position;
-            Instantiate(obj);
+
+            obj.transform.localScale = new Vector2(obj.transform.localScale.x * responsivePosition.GetScreenRatio(),
+                obj.transform.localScale.y * responsivePosition.GetScreenRatio());
+
+            obj.transform.parent = null;
+
             CurrentSlotTag = obj.tag;
             SlotSamples.RemoveAt(0);
         }
