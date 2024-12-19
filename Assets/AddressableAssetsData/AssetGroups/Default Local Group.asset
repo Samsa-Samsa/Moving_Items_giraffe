@@ -1,0 +1,705 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Default Local Group
+  m_EditorClassIdentifier: 
+  m_GroupName: Default Local Group
+  m_Data:
+    m_SerializedData: []
+  m_GUID: db1ed943808d98f4eb800ec53788a25b
+  m_SerializeEntries:
+  - m_GUID: 941e0af6d856cd7489036f6241541191
+    m_Address: Assets/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f4e83818144c004439bd0c09d2aca733
+    m_Address: Assets/Animations/Spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 813fa8a5719aecf44aae25aa0accc52d
+    m_Address: Assets/Animations/Unity anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4ed904888ffff1c4aa36359265959733
+    m_Address: Assets/Animations/Spine/Giraffe export
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 53fe45f082fd57a40b6eff1632df342d
+    m_Address: Assets/Animations/Spine/Giraffe export/Giraffe.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d3de73a083c908e4da1961feff1d8999
+    m_Address: Assets/Animations/Spine/Giraffe export/Giraffe_Material.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88109a7c71d12a849b31086b85b8b38d
+    m_Address: Assets/Animations/Spine/Giraffe export/Giraffe_SkeletonData.asset
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c3ca3116f652fa94c97f67f631c3da5f
+    m_Address: Assets/Animations/Unity anim/Banner
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6e44e84192ee5db468d0c2b1ce37bb28
+    m_Address: Assets/Animations/Unity anim/Hint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a2384587d154ca34c8065f342f60efc6
+    m_Address: Assets/Animations/Unity anim/Banner/Banner.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 4792170361050ce4296066a4cc293016
+    m_Address: Assets/Animations/Unity anim/Banner/BannerRevealAnim.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 88f1aebc0bc669244bb7ff8ed9d16781
+    m_Address: Assets/Animations/Unity anim/Hint/HintFinger.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: eb2ffc153a2cbad41beca609a66d9751
+    m_Address: Assets/Animations/Unity anim/Hint/HintFingerSizeChange.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a6594df6972f9dc4bb02ddc31ab58511
+    m_Address: Assets/Art/Sprites
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 76b429a123ef68f4096e51b8733fc7f2
+    m_Address: Assets/Art/Sprites/2D
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ad7b43ee0bb858c48b2ad9a6ac79b721
+    m_Address: Assets/Art/Sprites/2D/chocolate bar.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecc7109592255944e988eb6e34e7f5d5
+    m_Address: Assets/Art/Sprites/2D/shake.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a5413fa5d5c731b46a6f2a3714cbef2f
+    m_Address: Assets/Art/Sprites/2D/ice cream.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2bae455ead848ee468ccfa14102c0df2
+    m_Address: Assets/Art/Sprites/2D/jello.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d401b441d4ffbdd47919bfe3f9ac21a3
+    m_Address: Assets/Art/Sprites/2D/lolypop.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0f489badad930c44592926e5a9065916
+    m_Address: Assets/Art/Sprites/2D/cake slice.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1ed42dd55e590cc47bede5a8783a2916
+    m_Address: Assets/Art/Sprites/2D/chocolate_pudding.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 94f712a81f297f64eb9a65ea79825664
+    m_Address: Assets/Art/Sprites/2D/choco cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cc8e749de0276864791f0940ac89fe5c
+    m_Address: Assets/Art/Sprites/2D/christmas cookie.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9bed562dfd2ff4744997034907ba1757
+    m_Address: Assets/Art/Sprites/2D/cupcake.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6398793b3f1a254428a0502a8ee70b35
+    m_Address: Assets/Art/Sprites/2D/juice.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cfb4a942c3a9fb547a686f0dda4b9cce
+    m_Address: Assets/Art/Sprites/2D/gingerbread man.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac37c2fc78b75c24f942ab3802354a58
+    m_Address: Assets/Art/Sprites/2D/christmas cake.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da66bf646d7eac64f89299111a3c9040
+    m_Address: Assets/Art/Sprites/2D/cone.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5b39e058ba1f36b47af06f8d174ace70
+    m_Address: Assets/Art/Sprites/2D/donut.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ac9faa170a0d2a2408285771ef681628
+    m_Address: Assets/Art/Sprites/2D/flooring.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c4d8c58f3b2fc6c4ebef75584933b74f
+    m_Address: Assets/Art/Sprites/2D/donut item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 16718a0d0c67b0c4fb14b04dc6ced8d1
+    m_Address: Assets/Art/Sprites/2D/christmas cookie item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ecf36e9920167d6489402f26c593c88e
+    m_Address: Assets/Art/Sprites/2D/basket back.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67adca4f64dbfd54c9eebb84f430ffc8
+    m_Address: Assets/Art/Sprites/2D/christmas cake item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 97aa911f82eefcc40ada8e8908285cbc
+    m_Address: Assets/Art/Sprites/2D/HintFinger.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7244a20d0bd5c74a89d103daa795bcd
+    m_Address: Assets/Art/Sprites/2D/ice cream item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: fc81e8934f04d8748bb707575595298f
+    m_Address: Assets/Art/Sprites/2D/lolypop item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a3ad1dc29194182478b6e12de4457a5e
+    m_Address: Assets/Art/Sprites/2D/chocolate pudding item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67f8dbc9ce970db46bbae98ada8c0f2a
+    m_Address: Assets/Art/Sprites/2D/stand wall.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dabfb398a69dd844f81a2fdf31aed77b
+    m_Address: Assets/Art/Sprites/2D/cone item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e7c19e0eb894b1e42bb78b01fa965eea
+    m_Address: Assets/Art/Sprites/2D/shake item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0a7fa514cd24f4943bd0f1f406be5613
+    m_Address: Assets/Art/Sprites/2D/cake slice item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2d507c3d12334aa4599ca5d3b1e26b14
+    m_Address: Assets/Art/Sprites/2D/gingerbread man item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: da19ad7c19559bf42ba9969e5682bfb8
+    m_Address: Assets/Art/Sprites/2D/choco cookie item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 675bad9392a765b47a026d9ad267f122
+    m_Address: Assets/Art/Sprites/2D/cupcake item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9ae6220be320f9a43ad30b7861bdff15
+    m_Address: Assets/Art/Sprites/2D/stand frame.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: aef330f04385045479d877e386f68d5f
+    m_Address: Assets/Art/Sprites/2D/basket front.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d6841549273ed2c4a99477ef47a4f1ec
+    m_Address: Assets/Art/Sprites/2D/tent.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 48452a182f9414846ba9eb46d0358a42
+    m_Address: Assets/Art/Sprites/2D/jello item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: d8353f32494523e40b0776b56de6b0d9
+    m_Address: Assets/Art/Sprites/2D/chocolate bar item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 923a2b5cccc3d65478da75be51851d5e
+    m_Address: Assets/Art/Sprites/2D/wall pattern.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 45d94274fc3941e4f96ba0e7b0959c9a
+    m_Address: Assets/Art/Sprites/2D/plintus.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8bc3eef251c411540bfcce4a57b46dcd
+    m_Address: Assets/Art/Sprites/2D/juice item.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7876d01a77ee57c41bf354b608445a7a
+    m_Address: Assets/Art/Sprites/2D/wall.PNG
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 34cedea20335b16449f3664741502c4b
+    m_Address: Assets/Art/VFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e87fbffd23dbfe147b560c0171bfd011
+    m_Address: Assets/Art/VFX/Materials
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: abf3487907a22654ea5b777a2d048c3b
+    m_Address: Assets/Art/VFX/Prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: af99606956140834f8e6fef6b15bb971
+    m_Address: Assets/Art/VFX/Textures
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b5cd5dfb3355827438df3ccc050e003c
+    m_Address: Assets/Art/VFX/Materials/Glow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ae2a58e0a641934cb5d5f8836970423
+    m_Address: Assets/Art/VFX/Materials/Star 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6eca4818ebba8274b9f214cbe11f16c5
+    m_Address: Assets/Art/VFX/Materials/Star.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b6ed3c516ed2daf4592d85cc5622175d
+    m_Address: Assets/Art/VFX/Materials/GlowSparks 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a87333c1899464946957f4ae8c17f534
+    m_Address: Assets/Art/VFX/Materials/Glow 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9d9cb440cff0986488f870f4f4f8c2dc
+    m_Address: Assets/Art/VFX/Materials/Conffetti 2x3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 68abb8bfde3153647bae7f1f150a1911
+    m_Address: Assets/Art/VFX/Materials/Bucket Glow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 895b738b91dc78b4b8729017d6c5e41f
+    m_Address: Assets/Art/VFX/Prefab/Conffetti.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc8851e1a1dc720488d035ef7a6bcc92
+    m_Address: Assets/Art/VFX/Prefab/Firework.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 35c34d7c8295cad45b51f709ad7c402c
+    m_Address: Assets/Art/VFX/Prefab/MatchEffect.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6cd4f1c09ff9d76429fc325e7362e582
+    m_Address: Assets/Art/VFX/Textures/banner-blue-2.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 2419315b3d9bf454596dabc7a3ef28dd
+    m_Address: Assets/Art/VFX/Textures/basket front Glow Tex.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc2389428578b224d82f73b57d4ad4af
+    m_Address: Assets/Art/VFX/Textures/Small Glow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 31ddd6cf30be0f04e8fcf66a9b13d437
+    m_Address: Assets/Art/VFX/Textures/Conffetti 2x3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: df9515f11fa85ac4e9c31a2f8f0de7a4
+    m_Address: Assets/Art/VFX/Textures/progress_bar Tex.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 348c80892efc25f46b52c959115410e7
+    m_Address: Assets/Art/VFX/Textures/Star.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67262b547e188bf489aaa4387b76108f
+    m_Address: Assets/Gameplay/Preabs
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 669e46c66d0a76944ab733de2e1fdeba
+    m_Address: Assets/Sounds
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 0ed71b6acbf2cfd4dace2a08708a5b62
+    m_Address: Assets/Gameplay/Preabs/15.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 510540469075f394e94b9be105efa2fb
+    m_Address: Assets/KIDSGameLibrary/Animations
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c52298b57225ae54c97d0876451b4cfc
+    m_Address: Assets/Sounds/Tap Sound.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ae95f2eef84867c4cbe53854006397ff
+    m_Address: Assets/Sounds/MatchSound.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: caf0151f898135f43929c7a44badb2fd
+    m_Address: Assets/Sounds/newItem.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c19af547a6aaa71409e6ab4e82b29c1a
+    m_Address: Assets/Sounds/FireWork.ogg
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 25ae1bea7f198404985a2fd71e9e7812
+    m_Address: Assets/Sounds/Choose the correct items_cheerful.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c6fa3de7b6e2f0a429e79f0349e5fadc
+    m_Address: Assets/Sounds/Nice_Exited.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 85d10c9674d5a6f4bb18630b03698f80
+    m_Address: Assets/Sounds/Amazing_Excited.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 96ac94eabab2e394a883c97b4c4d6c0b
+    m_Address: Assets/Sounds/Great_Shouting.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 9aeb4e756d58ada4388866bd8102f158
+    m_Address: Assets/Sounds/Good job_Exited.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 847afff082fd721488b4cb27f64b93bf
+    m_Address: Assets/Sounds/Awesome_Exited.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 67a8921c11e6bc6459711790c1f76f3e
+    m_Address: Assets/Sounds/test audio.wav
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 864b3c6efdb5d81428d7f4a636fb93f8
+    m_Address: Assets/Sounds/Well Done_Exited.mp3
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 021bae1b0efdf7e478a664de951f96bf
+    m_Address: Assets/Art
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 30918bcaadaaecc42bc215ff52f75b21
+    m_Address: Assets/Spine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 18da2ec9894f0d24299e747167f3ae98
+    m_Address: EntryPointPrefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 22733da2dc231c6459162ea036a69613
+    m_Address: EntryPoint
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3f978c84aa32b434f89d9823f47e2177
+    m_Address: Assets/Gameplay/Preabs/1.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d5e74c4a5d5445469920c7d9f1089f0
+    m_Address: Assets/Gameplay/Preabs/2.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e4b1bd82de9d985419797d01583b3ae2
+    m_Address: Assets/Gameplay/Preabs/3.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a8f2beecee341404594e1331108cf5ae
+    m_Address: Assets/Gameplay/Preabs/4.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 7e19e76cfd5f35c4e8983a3900e4881b
+    m_Address: Assets/Gameplay/Preabs/5.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55b42f8bbaebe074aad4ca6ca952491b
+    m_Address: Assets/Gameplay/Preabs/6.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 8f9805abbf51bcf4dbac2915a4955105
+    m_Address: Assets/Gameplay/Preabs/7.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bd658bcc2af6fe94cbdcee15900334e9
+    m_Address: Assets/Gameplay/Preabs/8.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 202e6ae292037ca42b4d234ba989cac4
+    m_Address: Assets/Gameplay/Preabs/9.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a589d6f9e13ab0048a7a2985beffa5e5
+    m_Address: Assets/Gameplay/Preabs/10.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f2637f95f6907b143a7cfa1c1ab721ac
+    m_Address: Assets/Gameplay/Preabs/11.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 55d3df9441b0d174fabdd705fbea1d61
+    m_Address: Assets/Gameplay/Preabs/12.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 471d95898cf22fa488f5dad2e32c8fba
+    m_Address: Assets/Gameplay/Preabs/13.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 705ad5368bb4905498b544853ececcb2
+    m_Address: Assets/Gameplay/Preabs/14.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f3ac0a00f2c5535458c35103bfa3808c
+    m_Address: Assets/KIDSGameLibrary/Art
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09acbb2b04456864bb25b5bdd84c4405
+    m_Address: Assets/KIDSGameLibrary/Data
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: dc789e8b7967119469e9093df744c4d7
+    m_Address: Assets/KIDSGameLibrary/Sound
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 031b343df3de92a4095a1cec1f4b546d
+    m_Address: Assets/KIDSGameLibrary/Sound/SFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c22aa5d5314bcd742824c8a58418ba0b
+    m_Address: Assets/KIDSGameLibrary/Sound/BGM
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5f4b21d5bc8bc8944a49cae6b1635ed2
+    m_Address: Assets/KIDSGameLibrary/Art/VFX
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 32926384acd8b2b42b0e0a7d97cd2dab
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/Glow 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: bc84270a84fc8c644ae17c8a3a759959
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/GlowSparks 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: a779f91aa187a1b45afc99b57ae5efaa
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/Glow.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3c5b8919f167a874aaf305771a616928
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/Conffetti 2x3 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 146a7a9653bcaee4b8dfe78f9f2eb55d
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/Star.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: e1ff284ce7af0d3488d6958ffad79974
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/Star 1.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3acc6dbd8d575ab4b9628af35c422bd0
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials/Conffetti 2x3.mat
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 09469c253b2918341bb93ecb56222848
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Prefabs/Firework.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ccbb7a3733ae298458e202acef4a9d0c
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Prefabs/Stars.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3944f3c0fcc5f63458db7e8aca544aca
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Prefabs/Conffetti.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: b4b54e6f8502f7a429b0c8d7317d9719
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Prefabs/ConffettiImpact.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f20100d0ec2887d4c82eb0a93840ddd2
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Prefabs
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 51f776b6d6e03f043abef3599e741659
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Textures/progress_bar Tex.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3fffb39c6d8c09343ad2dedbad4b7347
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Textures/Star.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 74769a5a0c588104c8b339327f550619
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Textures/Conffetti 2x3 (1).png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 81b0dd4b79fd7034b901f840d2a586fe
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Textures/Conffetti 2x3.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: c868fd0e760b4d3488c4cc6f520f81c5
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Textures/Small Glow.png
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: cbe25768bf15d6640b65d39c4f557726
+    m_Address: Assets/KIDSGameLibrary/Animations/Snapanim.anim
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 3b6451164a9c9ce47a4d75a0842ed5a6
+    m_Address: Assets/KIDSGameLibrary/Animations/SnapAnimator.controller
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 1d6d6e9dfc560a14e8a883232ea9a02c
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Textures
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: f7683446d7e82d94bb835836bb14d126
+    m_Address: Assets/KIDSGameLibrary/Art/VFX/Materials
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: 10b760ecfd3ddf44fa975b4f0fb9536e, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: c9dacdb2c3dc70047a60b9061ae6b582, type: 2}
+    - {fileID: 11400000, guid: b095132fa031de443a01e16db9587414, type: 2}

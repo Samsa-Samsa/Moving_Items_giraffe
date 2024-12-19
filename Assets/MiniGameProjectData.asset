@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f827db118c145e3a8cf8a942c14f3da, type: 3}
+  m_Name: MiniGameProjectData
+  m_EditorClassIdentifier: 
+  Config: {fileID: 11400000, guid: 33a8050471ac3ce45bbb3e511e5b3e17, type: 2}
+  CodeRepositoryFolder: {fileID: 102900000, guid: 45db84ec172ca474e887f9f29b195ac6, type: 3}
+  AssemblyAsset: {fileID: 5897886265953266890, guid: 073ba35f404f8ed4589fbbdfd748e374, type: 3}
+  Package: {fileID: 4900000, guid: f7df4d95c4e9ae341807a26ef4f7df50, type: 3}
